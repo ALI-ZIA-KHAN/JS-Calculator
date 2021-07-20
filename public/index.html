@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="full">
+    
+<div class="container  text-center ">
+    
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;color: maroon;">Calculator App</h1>
+
+
+
+<div class="row justify-content-center">
+
+<input type="text" id="outcome" maxlength="8" class="col-4 col-sm-4 gradient-input-1 gradient-input"  >
+
+</div>
+
+
+<div class="row justify-content-center">
+    
+
+<button type="button" onclick="send('7')" class="gradient-button btn-outline-dark gradient-button-1 col-1">7</button>
+<button type="button" onclick="send('8')" class="gradient-button btn-outline-dark gradient-button-1 col-1">8</button>
+<button type="button" onclick="send('9')" class="gradient-button btn-outline-dark gradient-button-1 col-1">9</button>
+<button type="button" onclick="send('/')" class="gradient-button btn-outline-dark gradient-button-1 col-1">/</button>
+
+
+</div>
+<div class="row justify-content-center">
+
+<button type="button" onclick="send('4')" class="gradient-button btn-outline-dark gradient-button-1 col-1">4</button>
+<button type="button" onclick="send('5')" class="gradient-button btn-outline-dark gradient-button-1 col-1">5</button>
+<button type="button" onclick="send('6')" class="gradient-button btn-outline-dark gradient-button-1 col-1">6</button>
+<button type="button" onclick="send('*')" class="gradient-button btn-outline-dark gradient-button-1 col-1">*</button>
+    
+    
+</div>
+
+<div class="row justify-content-center">
+
+    
+<button type="button" onclick="send('1')" class="gradient-button btn-outline-dark gradient-button-1 col-1">1</button>
+<button type="button" onclick="send('2')" class="gradient-button btn-outline-dark gradient-button-1 col-1">2</button>
+<button type="button" onclick="send('3')" class="gradient-button btn-outline-dark gradient-button-1 col-1">3</button>
+<button type="button" onclick="send('+')" class="gradient-button btn-outline-dark gradient-button-1 col-1">+</button>
+        
+        
+</div>
+
+<div class="row justify-content-center">
+
+<button type="button" onclick="send('0')" class="gradient-button btn-outline-dark gradient-button-1 col-1">0</button>
+<button type="button" onclick="clearAll()" class="gradient-button btn-outline-dark gradient-button-1 col-1">CE</button>
+<button type="button" onclick="calcResult()"  class="gradient-button btn-outline-dark gradient-button-1 col-1">=</button>
+<button type="button" onclick="send('-')" class="gradient-button btn-outline-dark gradient-button-1 col-1">-</button>
+            
+</div>
+        
+
+</div>    
+
+
+
+
+</div>
+
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.7.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+</body>
+</html>

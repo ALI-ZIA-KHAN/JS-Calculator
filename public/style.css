@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.full{
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/564x/e9/a5/c4/e9a5c4e32b37902dc3c7750a69cf0c6b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 18%;
+  }
+
+.btn-style{
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        width:50%;    
+        background-color: darkslategray;
+}
+
+.gradient-input {
+    margin: 1px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size:40 px;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    line-height: 2.5em;
+    box-shadow: 0 0 10px #eee;
+  
+    /* width: 190px; */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+  
+}
+.gradient-input:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+}
+.gradient-input-1 {background-image: linear-gradient(to right, #ccdbe0 0%, #f4ffc2 100%)}
+.gradient-input-1:hover { background-position: right center; }
+
+
+
+
+
+.gradient-button {
+    margin: 1px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 23px;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color:rgb(13, 14, 13);
+    box-shadow: 0 0 10px #eee;
+  
+    width: 190px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+  
+}
+.gradient-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+}
+.gradient-button-1 {background-image: linear-gradient(to right, #5fd1fd 0%, #34d39e 51%, #10b67e 100%)}
+.gradient-button-1:hover { background-position: right center; }
